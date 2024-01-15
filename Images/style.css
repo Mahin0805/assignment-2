@@ -71,7 +71,6 @@ select {
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -126,13 +125,12 @@ h5 {
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     border: none;
-    
+
 }
 
 .sect-2-pic {
@@ -141,4 +139,59 @@ h5 {
     width: 540px;
     height: 550px;
     flex-shrink: 0;
+}
+
+.sect-3 {
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sect-3-text {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sect-3-pic {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    gap: 24px;
+
+}
+
+.img {
+    display: inline-block;
+    position: relative;
+}
+
+.sect-3-pic img {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transform: translate(-50%, -50%);
+
 }
