@@ -1,3 +1,34 @@
+nav {
+    display:flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    display: inline-flex;
+    text-decoration: none;
+
+
+}
+
+.tag a {
+    text-decoration: none;
+    color: (#424247);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
 .sect-1 {
     width: 1170px;
     height: 500px;
@@ -223,7 +254,6 @@ h5 {
 }
 
 .row :hover {
-    /* z-index: 1; */
     transform: scale(1.3);
 }
 
@@ -279,10 +309,10 @@ h5 {
 
 .sect-8 {
     width: 1440px;
-    height: 500px;
+    height: 400px;
     flex-shrink: 0;
     display: flex;
-    margin: 500px auto;
+    margin: 500px auto 0;
     padding-top: 150px;
     align-items: center;
     flex-direction: column;
@@ -312,4 +342,26 @@ h5 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+.sect-8-text {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sect-8-pic {
+    display: inline-flex;
+    gap: 50px;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    border: none;
 }
