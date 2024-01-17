@@ -386,7 +386,9 @@ h5 {
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
-    position: absolute;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
     align-items: center;
 
 }
