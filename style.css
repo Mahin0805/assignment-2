@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Meie+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Inter;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.502);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 40px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px 40px;
+}
+
+section>div {
+    width: 80vw;
+    margin: 100px auto;
+    border: 2px solid white;
+}
+
+/* section 2 */
+
+.sect-2 {
+    text-align: center;
+}
+
+.sect-2-item {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: Inter;
+}
+
+.sect-2-item img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/* section 3 */
+
+.sect-3 {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sect-3>div {
+    padding: 50px;
+    width: 40%;
+}
+
+.run {
+    background-image: url(images/run.jpg);
+    background-position: 65% 35%;
+    border-radius: 18px;
+    height: 370px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .sect-2-item {
+        flex-direction: column;
+    }
+
+}
