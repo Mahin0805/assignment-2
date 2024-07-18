@@ -6,15 +6,15 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Inter;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .description {
@@ -22,8 +22,8 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .btn {
@@ -31,16 +31,14 @@ body {
     border: none;
     background: rgb(230, 83, 60);
     color: white;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
-    line-height: 22px;
-    padding: 10px 40px;
+    padding: 0.8em 3.5rem;
 }
 
 section>div {
     width: 75vw;
     margin: 100px auto;
-    /* border: 2px solid white; */
 }
 
 /* section 2 */
@@ -59,7 +57,6 @@ section>div {
 .sect-2-item img {
     border-radius: 50%;
     margin-bottom: 30px;
-    width: 11em;
 }
 
 /* section 3 */
@@ -117,8 +114,67 @@ section>div {
 }
 
 .image-content p {
-    color: rgba(255, 255, 255, 0.478);
+    color: rgba(255, 255, 255, 0.5);
 }
+
+/* footer section  */
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.foot {
+    width: 75vw;
+    margin: 0 auto;
+    padding: 4.3em 0px 2em;
+}
+
+.foot>p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.foot-content {
+    display: flex;
+    gap: 100px;
+}
+
+.right-content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.right-content h4 {
+    margin-bottom: 1.5em;
+}
+
+.foot-content h3 {
+    color: rgb(230, 83, 60);
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+
+.foot-content h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.foot-content li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.3em;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 2em 0px;
+}
+
 
 
 
@@ -127,7 +183,9 @@ section>div {
     section>div {
         width: 90vw;
     }
-    
+
+    /* section 2 */
+
     .sect-2-item {
         flex-direction: column;
     }
@@ -155,6 +213,17 @@ section>div {
 
     .sect-6-item {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer section */
+
+    .foot-content {
+        flex-direction: column;
+    }
+
+    .right-content {
+        flex-direction: column;
+        width: 100%;
     }
 
 }
