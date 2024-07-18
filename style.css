@@ -41,6 +41,44 @@ section>div {
     margin: 100px auto;
 }
 
+/* navbar  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    margin: 3rem auto;
+}
+
+nav h3 {
+    color: rgb(230, 83, 60);
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul :first-child {
+    background-color: rgb(230, 83, 60);
+    padding: 0.5rem 1.5rem;
+    border-radius: 40px;
+}
+
+.icon{
+
+}
+
+
+
 /* section 2 */
 
 .sect-2 {
@@ -147,19 +185,16 @@ footer {
     width: 70%;
 }
 
-.right-content h4 {
-    margin-bottom: 1.5em;
-}
-
 .foot-content h3 {
     color: rgb(230, 83, 60);
     font-size: 4.3rem;
     font-weight: 800;
 }
 
-.foot-content h4 {
+.right-content h4 {
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 1.5em;
 }
 
 .foot-content li {
