@@ -431,7 +431,7 @@ hr {
 
     .form-box {
         box-sizing: border-box;
-        width: calc(90% - 40px);
+        width: calc(100% - 40px);
     }
 
     /* section 6 */
