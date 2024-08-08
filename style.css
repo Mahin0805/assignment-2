@@ -81,7 +81,7 @@ nav a {
 
 .icon {
     color: rgb(255, 255, 255);
-    width: 2rem;
+    width: 3rem;
     display: none;
 
 }
@@ -210,6 +210,29 @@ nav a {
     height: 370px;
 }
 
+/* section 4 */
+
+.sect-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    row-gap: 2.5rem;
+    column-gap: 1.5rem;
+
+}
+
+.item-3 {
+    order: 4;
+}
+
+.sect-4 div {
+    padding: 20px;
+}
+
+.sect-4 img {
+    width: 100%;
+}
+
 /* section 5 */
 
 .sect-5-title {
@@ -233,7 +256,7 @@ nav a {
 }
 
 table {
-    width: 25rem;
+    width: calc(25rem - 40px);
     height: 15rem;
     border-collapse: collapse;
     margin-top: 3.5rem;
@@ -367,6 +390,12 @@ hr {
         width: 90vw;
     }
 
+    /* navbar */
+
+    nav {
+        width: 90vw;
+    }
+
     nav>ul {
         display: none;
     }
@@ -379,10 +408,15 @@ hr {
 
     .hero {
         flex-direction: column;
+        margin-top: 4rem;
     }
 
     .hero-content {
         max-width: 100%;
+    }
+
+    .hero-content h2 {
+        font-size: 3.5rem;
     }
 
     .bg-img {
@@ -421,6 +455,19 @@ hr {
 
     .sect-3 .btn {
         padding: 15px 120px;
+    }
+
+    /* section 4 */
+    .sect-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .sect-4>div>.description {
+        margin-bottom: 10px;
+    }
+
+    .item-4 {
+        order: 4;
     }
 
     /* section 5 */
