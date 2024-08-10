@@ -189,8 +189,8 @@ nav a {
 }
 
 .sect-2-item {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     font-family: Inter;
     padding: 0 2.5rem;
@@ -466,7 +466,7 @@ hr {
     /* section 2 */
 
     .sect-2-item {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     /* section 3 */
@@ -480,12 +480,18 @@ hr {
         width: calc(100% - 50px);
     }
 
+    .run {
+        background-size: cover;
+        height: 11rem;
+    }
+
     .title {
         font-size: 2.5rem;
     }
 
     .sect-3 .btn {
         padding: 15px 120px;
+        margin: 0;
     }
 
     /* section 4 */
